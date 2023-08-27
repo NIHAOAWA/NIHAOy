@@ -1,8 +1,11 @@
 # 简介
 
 你好最近闲的没事干，开发了个人主页系统
+### 开发背景
+> 你好为了您的个人主页品质
+> 所以这个项目诞生了
 
-# 安装与部署
+## 安装与部署
 
 ### 先决条件
 
@@ -17,6 +20,6 @@
 
 ## 相关贡献者
 
-你好：写源代码
+你好：写源代码、模版
 [ThePiationESL](https://githubfast.com/thepiatioonesl)与[zhizi（质子）](https://githubfast.com/zhiziqixingdeng)：
 对本产品的上线提供支持
