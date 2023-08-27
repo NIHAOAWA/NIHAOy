@@ -10,6 +10,8 @@
 ### 先决条件
 
 - html编辑器
+- 一台电脑
+- 域名（如您想做成网站）
 
 ### 部署
 
@@ -20,6 +22,7 @@
 
 ## 相关贡献者
 
-你好：写源代码、模版
-[ThePiationESL](https://githubfast.com/thepiatioonesl)与[zhizi（质子）](https://githubfast.com/zhiziqixingdeng)：
+- 你好：写源代码、模版
+
+- [ThePiationESL](https://githubfast.com/thepiatioonesl)与[zhizi（质子）](https://githubfast.com/zhiziqixingdeng)：
 对本产品的上线提供支持
