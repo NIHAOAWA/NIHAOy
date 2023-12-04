@@ -4,39 +4,80 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>XX的个人主页</title>
     <style>
-        body {
-            background-color: skyblue;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-        
-        .container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        
-        .profile {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        
-        .message-board {
-            margin-bottom: 20px;
-        }
-        
-        .clock-in-out {
-            display: flex;
-            justify-content: center;
-        }
-        
-        .clock-in-out button {
-            margin: 0 10px;
-        }
+        /* 设置全局样式 */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* 设置主要容器 */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 设置头部样式 */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+/* 设置导航栏样式 */
+nav {
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #eee;
+}
+
+/* 设置内容区域样式 */
+.content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* 设置页脚样式 */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
     </style>
 </head>
 <body>
