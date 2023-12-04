@@ -1,6 +1,81 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <h1>fuck洁厕灵</h1>
-    <li>（该网站尚未完工 也请大家多多指教）</li>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>你好的个人主页</title>
+    <style>
+        body {
+            background-color: skyblue;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .profile {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .message-board {
+            margin-bottom: 20px;
+        }
+        
+        .clock-in-out {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .clock-in-out button {
+            margin: 0 10px;
+        }
+    </style>
 </head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <h1>个人主页</h1>
+            <p>欢迎您来到我的个人主页！我是你好。</p>
+            <p>我爱好编程和计算机，广交朋友。我的朋友有zhizi、thepiationesl.我的仇人有Maggie、Henrize、MrZhang365</p>
+                     <p>如有任何疑问，欢迎联系我！</p>
+                                      <p>联系方式如下：</p>
+                     <p>聊天室方式:访问网站https://chat.imnt.or.td</p>
+                     <p>邮箱：greeneason7@gmail.com</p>
+        </div>
+        
+        <div class="message-board">
+            <h2>留言板</h2>
+            <form>
+                <textarea rows="4" cols="50" placeholder="在这里留下您的留言"></textarea><br>
+                <input type="submit" value="提交">
+            </form>
+        </div>
+        
+        <div class="clock-in-out">
+            <h2>打卡上下班</h2>
+            <button onclick="clockIn()">上班打卡</button>
+            <button onclick="clockOut()">下班打卡</button>
+        </div>
+    </div>
+    
+    <script>
+        function clockIn() {
+            // 上班打卡逻辑
+            alert("上班打卡成功！");
+        }
+        
+        function clockOut() {
+            // 下班打卡逻辑
+            alert("下班打卡成功！");
+        }
+    </script>
+</body>
 </html>
